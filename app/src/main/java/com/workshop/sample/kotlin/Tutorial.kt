@@ -131,7 +131,7 @@ fun main() {
     val dataStd2 = Student2("A", "B", 14)
 
     areEqual = dataStd1 == dataStd2
-    println(areEqual)
+    println("** data classes are equal? ${areEqual}")
 
     student.displayName
 
